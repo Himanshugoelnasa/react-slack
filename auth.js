@@ -39,7 +39,7 @@ router.post('/register', async (req, res) => {
 
 
 router.post('/login', async (req, res) => {
-    
+         
 
     // check validate data  
     const {error} = Validate.loginValidaiton(req.body);
